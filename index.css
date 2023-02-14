@@ -1,0 +1,27 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.rabiu::before{
+    content: '';
+    background-image: url('myimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+}
+p {
+    text-align: center;
+    font-size: 70px;
+    color:black;
+    font-weight: bolder;
+}
+.rabiu {
+    margin-top: 20%;
+}
